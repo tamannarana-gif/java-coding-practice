@@ -6,7 +6,7 @@ class Vehicle {
 
 class bike extends Vehicle {
 
-
+    @Override
     void start(){
         System.out.println("Bike is starting with key");
     }
@@ -15,7 +15,7 @@ class bike extends Vehicle {
 
 class electricBike extends Vehicle{
 
-
+    @Override
     void start() {
         System.out.println("electricBike is starting with button");
     }
